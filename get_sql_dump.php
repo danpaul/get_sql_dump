@@ -1,7 +1,8 @@
 <?php
 /**
-* This is a simple function to grab a dump of a remote MySql database
-*
+* This is a simple function to grab a dump of a remote MySql database.
+*   The function relies on mysqldump being available and uses the `exec`
+*   function... so be careful!
 *
 * @param $options
 *    Takes an options param with the following options:
@@ -65,5 +66,4 @@ function get_sql_dump($options){
     }
 
     return TRUE;
-
 }

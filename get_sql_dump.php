@@ -67,17 +67,3 @@ function get_sql_dump($options){
     return TRUE;
 
 }
-
-var_dump(
-
-get_sql_dump(array(
-    'user'      => "593345_access_dbZZZ",
-    'password'  => ">Y%nL76<2S6uEYp",
-    'host'      => "72.3.204.146",
-    'database'  => "593345_allure_access_stag",
-    'mysqldump' => '/Applications/MAMP/Library/bin/mysqldump',
-    'storage'   => NULL,
-    'filename'  => NULL
-))
-
-);
